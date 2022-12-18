@@ -1,0 +1,29 @@
+<view class="card___2IweN">
+  <view>
+    <view class="adm-image t1___F24sI">
+      <image class="adm-image-image" src="//mmbiz.qpic.cn/mmbiz_jpg/jnn6RyicPf16AUmJTa622YCMDABS56gxHncu0uQBvgAhRu0jOoQslzBwMV4sN3vVL9ZEZtmelcVWwMkv102vvqw/0" alt="" referrerpolicy="no-referrer" draggable="false" style="object-fit: fill; display: block;height: 154rpx;" />
+    </view>
+  </view>
+  <view class="box___1U3xY">
+    <view class="t1___F24sI">请收下绿色行程卡</view>
+    <view class="h1___3FhAt">2020***2022的动态行程卡</view>
+    <view class="h2___22d5N">停止于: 2022.12.13 00:00:00</view>
+    <view class="adm-image run___2M8TY">
+      <image class="adm-image-image" src="//mmbiz.qpic.cn/mmbiz_png/jnn6RyicPf16AUmJTa622YCMDABS56gxHkBTDHibk3EZGbjjzlrnbhlmDiavXZIAg0E6icervibxEq3Jd5ODQB1hnTw/0" alt="" referrerpolicy="no-referrer" draggable="false" style="object-fit: fill; display: block;width: 260rpx;height: 260rpx;" />
+    </view>
+    <view class="line___36oa2"></view>
+    <view class="total___3njLq"><text class="p1___2lUOR">您于 2020 - 2022 年到达或旅经:</text> <text class="p2___3ewoM">
+    <text>{{datastr}}</text>
+    </text></view>
+  </view>
+  <view class="bottom___1yXAA">
+    <view class="t1___F24sI">12月13日0时起，正式下线“通信行程卡”服务“通信行程卡” 短信、网页、微信小程序、支付宝小程序、APP等所有渠道同步下线!</view>
+    <view class="end___2hpBQ"><text class="goodbye___3XL7i">三年了，再见</text></view>
+  </view>
+
+  <!-- <view class="ad_box___2tw8u showButton___2fJcU">
+    <view class="adm-image">
+      <image class="adm-image-image" src="//mmbiz.qpic.cn/mmbiz_gif/jnn6RyicPf15UmsKibSvQNRRic9qDmpSFch2gjmp0YoVCXdECfmEn3IicTZicneY5XJ4Lp3pE8GSsT0ARAcBNRp8oaQ/0" referrerpolicy="no-referrer" draggable="false" style="object-fit: fill; display: block;" />
+    </view>
+  </view> -->
+</view>

@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/select/select",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2da568",
+    "navigationBarTitleText": "行程卡纪念版",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

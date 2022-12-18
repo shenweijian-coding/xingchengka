@@ -1,0 +1,40 @@
+.content {
+  padding: 15rpx 30rpx 150rpx 30rpx;
+  font-size: 30rpx;
+  color: #808080;
+  font-size: 30rpx;
+}
+
+.list-content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 70rpx;
+  border-bottom: 1rpx solid rgb(238, 238, 238);
+}
+
+.list-text {
+  display: flex;
+  transition: all 0.5s ease;
+  display: block;
+  margin: 10rpx;
+  font-size: 24rpx;
+  line-height: 56rpx;
+}
+
+.hidden-content {
+  display: none;
+}
+.btn{
+  position:fixed;
+  width: 100% !important;
+  height: 106rpx !important;
+  color: #fff;
+  line-height: 106rpx !important;
+  padding: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #2da568;
+  border-radius: 0 !important;
+}

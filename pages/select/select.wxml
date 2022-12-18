@@ -1,0 +1,20 @@
+<view class="content">
+  <checkbox-group bindchange="checkboxChange">
+    <block wx:for="{{ options }}" wx:key="index">
+      <view class="list-content" bindtap="onListClick" data-index="{{ index }}">
+        <view>
+          <text>{{ item.provinceName }}</text>
+        </view>
+        <view>
+          <iconfont class="iconfont {{active == index ? 'xiangxiajiantou' : 'xiangshangjiantou'}}"></iconfont>
+        </view>
+      </view>
+      <view class="list-text {{active == index ? '' : 'hidden-content'}}">
+        <label wx:for="{{item.citys}}" wx:key="{{index}}" wx:for-item="city">
+          <checkbox value="{{item.citys.length > 1 ? item.provinceName + city.cityName : city.cityName}}" />{{city.cityName}}
+        </label>
+      </view>
+    </block>
+  </checkbox-group>
+</view>
+<button class="btn" bindtap="toMain">选择三年到达或途径 点我下一步</button>

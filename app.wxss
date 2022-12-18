@@ -1,0 +1,53 @@
+page {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Arial,Roboto,PingFang SC,miui,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+  --adm-radius-s: 4px;
+  --adm-radius-m: 8px;
+  --adm-radius-l: 12px;
+  --adm-font-size-1: 9px;
+  --adm-font-size-2: 10px;
+  --adm-font-size-3: 11px;
+  --adm-font-size-4: 12px;
+  --adm-font-size-5: 13px;
+  --adm-font-size-6: 14px;
+  --adm-font-size-7: 15px;
+  --adm-font-size-8: 16px;
+  --adm-font-size-9: 17px;
+  --adm-font-size-10: 18px;
+  --adm-color-primary: #1677ff;
+  --adm-color-success: #00b578;
+  --adm-color-warning: #ff8f1f;
+  --adm-color-danger: #ff3141;
+  --adm-color-white: #fff;
+  --adm-color-text: #333;
+  --adm-color-text-secondary: #666;
+  --adm-color-weak: #999;
+  --adm-color-light: #ccc;
+  --adm-color-border: #eee;
+  --adm-color-box: #f5f5f5;
+  --adm-color-background: #fff;
+  --adm-font-size-main: var(--adm-font-size-5);
+  --adm-font-family: -apple-system,blinkmacsystemfont,"Helvetica Neue",helvetica,segoe ui,arial,roboto,"PingFang SC","miui","Hiragino Sans GB","Microsoft Yahei",sans-serif;
+  --adm-border-color: var(--adm-color-border);
+}
+@font-face {
+  font-family: "iconfont"; /* Project id 2421935 */
+  src: url('//at.alicdn.com/t/c/font_2421935_xs7po4o5u09.woff2?t=1671252124400') format('woff2'),
+       url('//at.alicdn.com/t/c/font_2421935_xs7po4o5u09.woff?t=1671252124400') format('woff'),
+       url('//at.alicdn.com/t/c/font_2421935_xs7po4o5u09.ttf?t=1671252124400') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 20rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.xiangshangjiantou:before {
+  content: "\e65d";
+}
+
+.xiangxiajiantou:before {
+  content: "\e65e";
+}
