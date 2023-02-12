@@ -91,6 +91,22 @@
   margin: 15px;
   animation: ani-bounce___2jEMc 1.25s linear infinite;
 }
+@keyframes ani-bounce___2jEMc {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(0.9);
+    opacity: 0.85;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .adm-image {
   --width: var(--adm-image-width,auto);
   --height: var(--adm-image-height,auto);
@@ -154,4 +170,19 @@
 .bottom___1yXAA .end___2hpBQ {
   margin: 20px auto 15px;
   position: relative;
+}
+.action{
+  display: flex;
+  justify-content: space-between;
+}
+.share-btn{
+  padding: 0;
+  margin: 0;
+  width: 180rpx !important;
+  height: 40rpx !important;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  background-color: #fff;
 }
